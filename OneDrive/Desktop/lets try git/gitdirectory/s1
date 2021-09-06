@@ -1,0 +1,46 @@
+lex@LAPTOP-1MHJ35ST MINGW64 ~/OneDrive/Desktop/lets try git (sidekick)
+$ git commit -m "for love"
+[sidekick 98232bc] for love
+ 1 file changed, 1 insertion(+)
+  create mode 100644 OneDrive/Desktop/lets try git/s1
+
+  alex@LAPTOP-1MHJ35ST MINGW64 ~/OneDrive/Desktop/lets try git (sidekick)
+  $ git push
+  fatal: No configured push destination.
+  Either specify the URL from the command-line or configure a remote repository using
+
+      git remote add <name> <url>
+
+      and then push using the remote name
+
+          git push <name>
+
+
+	  alex@LAPTOP-1MHJ35ST MINGW64 ~/OneDrive/Desktop/lets try git (sidekick)
+	  $ git push s1
+	  fatal: 's1' does not appear to be a git repository
+	  fatal: Could not read from remote repository.
+
+	  Please make sure you have the correct access rights
+	  and the repository exists.
+
+	  alex@LAPTOP-1MHJ35ST MINGW64 ~/OneDrive/Desktop/lets try git (sidekick)
+	  $ dir
+	  s1
+
+	  alex@LAPTOP-1MHJ35ST MINGW64 ~/OneDrive/Desktop/lets try git (sidekick)
+	  $ git push
+	  fatal: No configured push destination.
+	  Either specify the URL from the command-line or configure a remote repository using
+
+	      git remote add <name> <url>
+
+	      and then push using the remote name
+
+	          git push <name>
+
+
+		  alex@LAPTOP-1MHJ35ST MINGW64 ~/OneDrive/Desktop/lets try git (sidekick)
+		  $ git push
+
+
